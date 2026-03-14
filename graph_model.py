@@ -18,7 +18,7 @@ def retrieve_documents(state: State) -> State:
     vector_store = get_vector_store(embeddings)
     retriever = create_retriever(vector_store)
 
-    query = state['messages'][-1].content
+    query = state["messages"][-1].content
     docs = retriever.invoke(query)
     document_pages = [doc.page_content for doc in docs]
 

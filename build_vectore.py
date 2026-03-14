@@ -36,3 +36,7 @@ def get_vector_store(embeddings):
     documnets = load_pdf(PDF_PATH)
     return build_vector_store(documnets, embeddings)
     
+
+if __name__ == "__main__":
+    documents = load_pdf(PDF_PATH)
+    build_vector_store(documents, embeddings)

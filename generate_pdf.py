@@ -23,8 +23,12 @@ def load_pdf(file_path: str) -> list:
     pages_splitter = text_splitter.split_documents(docs)
     return pages_splitter
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
-    file_path = "documents\\big_data_analytics.pdf"
-    pages_splitter = load_pdf(file_path)
-    print(f"Total chunks: {len(pages_splitter)}")
+#     file_path = "documents\\big_data_analytics.pdf"
+#     pages_splitter = load_pdf(file_path)
+#     # print(f"Total chunks: {len(pages_splitter)}")
+
+#     for i, page in enumerate(pages_splitter):
+#         print(f"Chunk {i + 1}:\n{page.page_content}\n{'-' * 40}")
+

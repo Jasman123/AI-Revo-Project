@@ -10,7 +10,7 @@ venv/
 .env
 
 # Vector DB
-#chroma_db/
+chroma_db/
 
 # Documents (PDFs)
 #documents/
