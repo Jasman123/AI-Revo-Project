@@ -16,8 +16,8 @@ def load_pdf(file_path: str) -> list:
     
     text_splitter = CharacterTextSplitter(
         separator="\n",
-        chunk_size=1000,
-        chunk_overlap=200,
+        chunk_size=400,
+        chunk_overlap=100,
         length_function=len,
     )
     pages_splitter = text_splitter.split_documents(docs)
