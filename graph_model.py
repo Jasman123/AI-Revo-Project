@@ -1,4 +1,5 @@
 from typing import List
+from langgraph import graph
 from langgraph.graph import StateGraph, START, END, MessagesState
 from langchain_core.prompts import ChatPromptTemplate
 
@@ -8,6 +9,8 @@ from build_vectore import get_vector_store
 from retriver import create_retriever, similarity_search
 from agent import create_llm
 from langchain_core.prompts import PromptTemplate
+
+from IPython.display import Image, display
 
 class State(MessagesState):
     documents: List[str]
@@ -69,5 +72,10 @@ def build_graph():
     graph.add_edge("generate_answer", END)
 
     return graph.compile()
+
+if __name__ == "__main__":
+    graph = build_graph()
+    with open("graph.png", "wb") as f:
+        f.write(graph.get_graph().draw_mermaid_png())
 
     
