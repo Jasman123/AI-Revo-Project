@@ -11,4 +11,4 @@ if __name__ == "__main__":
     user_input = input("Enter your question: ")
     messages.append(HumanMessage(content=user_input))
     response = graph.invoke({"messages": messages})
-    print(response)
+    print(response['messages'][-1].content)
