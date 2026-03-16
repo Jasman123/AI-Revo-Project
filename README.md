@@ -14,6 +14,7 @@ An intelligent, document-aware AI assistant powered by Retrieval-Augmented Gener
 
 ---
 
+![Alt text for the image](https://github.com/Jasman123/AI-Revo-Project/blob/main/Architecture%20System.png)
 
 
 ## 🗂️ Project Structure
@@ -85,9 +86,11 @@ fastapi dev main.py
 
 ---
 
-## 📄 License
+## 📄 future improvements.
 
-This project is open source. Feel free to use, modify, and distribute.
+1. Extend the vector database with **Pinecone** --> serverless vector database provider
+2. Install a bigger model to cover massive data information more than the current model, Llama 3.2
+3. Connect backend with React.js to perfom full stack code
 
 ---
 
