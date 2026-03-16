@@ -60,3 +60,9 @@ Traceback (most recent call last):
 asyncio.exceptions.CancelledError
 
 2026-03-16 14:27:28,913 | INFO | Stopping reloader process [3288]
+2026-03-16 20:52:16,882 | INFO | Will watch for changes in these directories: ['C:\\Users\\ASUS\\Documents\\Revo-project\\AI-Revo-Project']
+2026-03-16 20:52:16,887 | INFO | Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-03-16 20:52:16,890 | INFO | Started reloader process [10016] using WatchFiles
+2026-03-16 20:52:24,514 | INFO | Started server process [5856]
+2026-03-16 20:52:24,516 | INFO | Waiting for application startup.
+2026-03-16 20:52:24,518 | INFO | Application startup complete.

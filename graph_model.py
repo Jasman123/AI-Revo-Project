@@ -10,7 +10,7 @@ from retriver import create_retriever, similarity_search
 from agent import create_llm
 from langchain_core.prompts import PromptTemplate
 
-from IPython.display import Image, display
+# from IPython.display import Image, display
 
 class State(MessagesState):
     documents: List[str]
