@@ -1,6 +1,6 @@
 # 🤖 Insight AI
 
-An intelligent, document-aware AI assistant powered by Retrieval-Augmented Generation (RAG) using local LLM models (llama3.2). Insight AI lets you upload documents, build a searchable vector knowledge base, and have natural language conversations grounded in your own data — all wrapped in a clean Streamlit interface.
+An intelligent, document-aware AI assistant powered by Retrieval-Augmented Generation (RAG) using local LLM models (llama3.2). This system lets you upload documents, build a searchable vector knowledge base, and have natural language conversations grounded in your own data — all wrapped in a clean Streamlit interface.
 
 ---
 
@@ -13,6 +13,8 @@ An intelligent, document-aware AI assistant powered by Retrieval-Augmented Gener
 - 🐳 **embeddings** — tokenazation words
 
 ---
+
+
 
 ## 🗂️ Project Structure
 
