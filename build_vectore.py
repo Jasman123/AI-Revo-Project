@@ -29,13 +29,13 @@ def add_documents_to_vector_store(vector_store, str):
 
 def build_vector_store(documents, embeddings):
     uuids = [str(uuid4()) for _ in range(len(documents))]
-    vector_store = Chroma.add_documents(
-        documents,
-        ids=uuids,
-        embedding=embeddings,
+    vector_store = Chroma(
+        embedding_function=embeddings,
         persist_directory=CHROMA_DIR,
         collection_name=COLLECTION_NAME,
     )
+    for doc, uuid in zip(documents, uuids):
+        vector_store.add_documents(documents=[doc], ids=[uuid])
     return vector_store
 
 def get_vector_store(embeddings):
