@@ -103,3 +103,6 @@ fastapi dev main.py
 ## 🙋‍♂️ Author
 
 **Jasman** — [GitHub](https://github.com/Jasman123)
+
+**I confirm that this submission was completed without the assistance of any AI-based coding
+or generation tools.**
