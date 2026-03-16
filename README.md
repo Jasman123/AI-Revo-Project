@@ -72,19 +72,6 @@ fastapi dev main.py
 
 ---
 
-
-## ⚙️ Configuration
-
-Set the following environment variables before running:
-
-| Variable | Description |
-|---|---|
-| `OPENAI_API_KEY` | Your OpenAI API key |
-| `PINECONE_API_KEY` | Your Pinecone API key *(if using Pinecone)* |
-| `PINECONE_ENV` | Your Pinecone environment *(if using Pinecone)* |
-
----
-
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
@@ -92,7 +79,7 @@ Set the following environment variables before running:
 | backened | [FastApi](https://fastapi.tiangolo.com/) |
 | LLM Orchestration | [LangChain](https://www.langchain.com/) + [LangGraph](https://langchain-ai.github.io/langgraph/) |
 | Vector Store | [ChromaDB](https://www.trychroma.com/) |
-| LLM | OpenAI GPT (configurable) |
+| LLM | Ollama |
 
 ---
 
