@@ -1,0 +1,62 @@
+2026-03-16 14:25:05,095 | INFO | Will watch for changes in these directories: ['C:\\Users\\COB\\Documents\\Ai-Revo-Project']
+2026-03-16 14:25:05,096 | INFO | Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-03-16 14:25:05,097 | INFO | Started reloader process [3288] using WatchFiles
+2026-03-16 14:25:08,372 | INFO | Started server process [12140]
+2026-03-16 14:25:08,373 | INFO | Waiting for application startup.
+2026-03-16 14:25:08,375 | INFO | Application startup complete.
+2026-03-16 14:27:24,308 | WARNING | WatchFiles detected changes in 'main.py'. Reloading...
+2026-03-16 14:27:24,366 | INFO | Shutting down
+2026-03-16 14:27:24,470 | INFO | Waiting for application shutdown.
+2026-03-16 14:27:24,472 | INFO | Application shutdown complete.
+2026-03-16 14:27:24,473 | INFO | Finished server process [12140]
+2026-03-16 14:27:25,250 | WARNING | WatchFiles detected changes in 'main.py'. Reloading...
+2026-03-16 14:27:28,510 | INFO | Started server process [1624]
+2026-03-16 14:27:28,511 | INFO | Waiting for application startup.
+2026-03-16 14:27:28,512 | INFO | Application startup complete.
+2026-03-16 14:27:28,513 | INFO | Shutting down
+2026-03-16 14:27:28,621 | INFO | Finished server process [1624]
+2026-03-16 14:27:28,645 | ERROR | Traceback (most recent call last):
+  File "C:\Users\COB\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\COB\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\COB\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 712, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\COB\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\COB\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 2050, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "C:\Users\COB\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\COB\Documents\Ai-Revo-Project\.venv\Lib\site-packages\uvicorn\server.py", line 78, in serve
+    with self.capture_signals():
+         ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\COB\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "c:\Users\COB\Documents\Ai-Revo-Project\.venv\Lib\site-packages\uvicorn\server.py", line 339, in capture_signals
+    signal.raise_signal(captured_signal)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\COB\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 157, in _on_sigint
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\COB\Documents\Ai-Revo-Project\.venv\Lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "c:\Users\COB\Documents\Ai-Revo-Project\.venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\COB\AppData\Local\Programs\Python\Python313\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2026-03-16 14:27:28,913 | INFO | Stopping reloader process [3288]
