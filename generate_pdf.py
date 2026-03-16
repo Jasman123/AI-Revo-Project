@@ -14,18 +14,16 @@ def load_pdf(file_path: str) -> list:
     for i in range(len(docs)):
         docs[i].page_content = ' '.join(docs[i].page_content.split())
     
-    text_splitter = CharacterTextSplitter(
-        separator="\n",
-        chunk_size=400,
-        chunk_overlap=100,
-        length_function=len,
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=1000,
+        chunk_overlap=200,
     )
     pages_splitter = text_splitter.split_documents(docs)
     return pages_splitter
 
 # if __name__ == "__main__":
 
-#     file_path = "documents\\big_data_analytics.pdf"
+#     file_path = "documents\\data_information.pdf"
 #     pages_splitter = load_pdf(file_path)
 #     # print(f"Total chunks: {len(pages_splitter)}")
 
