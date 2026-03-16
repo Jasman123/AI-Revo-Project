@@ -14,7 +14,7 @@ An intelligent, document-aware AI assistant powered by Retrieval-Augmented Gener
 
 ---
 
-![Alt text for the image]([https://example.com/image.png](https://github.com/Jasman123/AI-Revo-Project/blob/main/Architecture%20System.png))
+![Alt text for the image](https://github.com/Jasman123/AI-Revo-Project/blob/main/Architecture%20System.png)
 
 
 ## 🗂️ Project Structure
