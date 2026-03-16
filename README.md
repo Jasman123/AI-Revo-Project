@@ -14,6 +14,7 @@ An intelligent, document-aware AI assistant powered by Retrieval-Augmented Gener
 
 ---
 
+![Alt text for the image](https://example.com/image.png)
 
 
 ## 🗂️ Project Structure
