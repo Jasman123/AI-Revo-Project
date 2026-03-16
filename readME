@@ -14,14 +14,14 @@ An intelligent, document-aware AI assistant powered by Retrieval-Augmented Gener
 
 ---
 
-https://github.com/Jasman123/AI-Revo-Project/blob/fastapi/Architecture%20System.png
+![Alt text](https://github.com/Jasman123/AI-Revo-Project/blob/fastapi/Architecture%20System.png)
 
 ## 🗂️ Project Structure
 
 ```
 Insight_AI/
 ├── main.py                     # Main application entry point
-├── llm.py                      # LLM setup and configuration
+├── agent.py                      # LLM setup and configuration
 ├── retriever.py                # RAG retriever logic
 ├── graph_model.py              # LangGraph reasoning pipeline
 ├── build_vectore.py            # Build ChromaDB vector store
