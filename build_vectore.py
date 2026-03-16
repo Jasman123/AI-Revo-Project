@@ -60,13 +60,13 @@ def get_vector_store(embeddings):
 #         print(f"Number of tokens: {len(doc.page_content.split())} \n{'-' * 40}")
 
 
-#     result = vector_store.similarity_search_with_score(
-#         query, k=3)
+    # result = vector_store.similarity_search_with_score(
+    #     query, k=3)
 
-#     for doc, score in result:
-#         print(f"Document: {doc.page_content}")
-#         print(f"Number of tokens: {len(doc.page_content.split())} \n{'-' * 40}")
-#         print(f"score: {score}\n{'=' * 40}")
+    # for doc, score in result:
+    #     print(f"Document: {doc.page_content}")
+    #     print(f"Number of tokens: {len(doc.page_content.split())} \n{'-' * 40}")
+    #     print(f"score: {score}\n{'=' * 40}")
 
 #     vector_store = Chroma(
 #     collection_name="pdf_chunks",

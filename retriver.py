@@ -5,5 +5,5 @@ def create_retriever(vectore_store):
     )
 
 def similarity_search(vector_store, query):
-    result = vector_store.similarity_search_with_scores(query, k=5)
+    result = vector_store.similarity_search_with_score(query, k=3)
     return result
