@@ -75,6 +75,12 @@ fastapi dev main.py
 
 ---
 
+### Input 
+![Alt text for the image](https://github.com/Jasman123/AI-Revo-Project/blob/main/input%20question.pngt
+
+### Output
+![Alt text for the image](https://github.com/Jasman123/AI-Revo-Project/blob/main/output%20response.png)
+
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
